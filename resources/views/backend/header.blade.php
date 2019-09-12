@@ -3,7 +3,7 @@
 				<div class="logo-header" data-background-color="blue">
 					
 					<a href="{{ URL::route('home')}}" class="logo">
-						<img src="{{ asset('assets/img/logo.png') }}" alt="navbar brand" class="navbar-brand">
+						<img src="{{ asset('onion/img/logo.webp') }}" alt="navbar brand" class="navbar-brand" style="height: 50px">
 					</a>
 					<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon">

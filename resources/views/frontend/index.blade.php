@@ -302,7 +302,7 @@
                                                                 @endif
                                                             @endforeach
                                                         @endif><i class="fa fa-search fa-border fa-2x"></i></a>
-                                                        <a title="Project Link" href="{{ route('portfolio-item') }}"><i class="fa fa-link fa-border fa-2x"></i></a></p>
+                                                        <a title="Project Link" href="{{ route('portfolio', $p->id) }}"><i class="fa fa-link fa-border fa-2x"></i></a></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -318,7 +318,7 @@
             <!-- END Columns Portfolio -->
 
             <div class="text-center">
-                <a href="{{ route('portfolio') }}">
+                <a href="{{ route('portfolios') }}">
                 <button type="button" class="btn btn-primary ">VIEW MORE PROJECTS <i class="fa fa-arrow-right"></i></button>
                 </a>
             </div>

@@ -3,10 +3,10 @@
 Route::get('/', function(){
 	return view('frontend.index');
 })->name('index');
-
+/*
 Route::get('/about-us', function(){
 	return view('frontend.about-us');
-})->name('about-us');
+})->name('about-us');*/
 
 /*Route::get('/blog-single-post', function(){
 	return view('frontend.blog-single-post');
@@ -27,10 +27,10 @@ Route::post('/event/{event_title}', function($event_title){
 	return redirect()->back();
 })->name('event-post');
 
-Route::get('/portfolio-item', function(){
+/*Route::get('/portfolio-item', function(){
 	return view('frontend.portfolio-item');
 })->name('portfolio-item');
 
 Route::get('/portfolio', function(){
 	return view('frontend.portfolio');
-})->name('portfolio');
+})->name('portfolio');*/
